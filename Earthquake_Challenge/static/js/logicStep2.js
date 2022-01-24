@@ -169,7 +169,7 @@ L.geoJSON(data, {
         // We set the style for each circleMarker using our styleInfo function.
       style: styleInfo
       }).addTo(map);
-  });
+  // });
 
 // // We create the tile layer that will be the background of our map.
 // let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
