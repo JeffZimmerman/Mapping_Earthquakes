@@ -2,7 +2,7 @@
 
 ## Overview
 The project utilized Leaflet, D3, GeoJSON and Mapbox.
-The aim was to take recent earthquake data, loaded dynamically from the USGS API, and display it over geographical features such as tectonic plate fault lines and geopolitical boun daries. 
+The aim was to take recent earthquake data, loaded dynamically from the USGS API, and display it over geographical features such as tectonic plate fault lines and geopolitical boundaries. 
 
 ## Implementation
 The severity of each earthquake is represented visually through variations in scale and color-coding, and each one is located on the map dashboard through latitudinal and longitudinal coordinates. A legend displays the color-coding associated with 5 levels of eartquake severity. The user may toggle on or off any combination of three different map overlays and three Mapbox styles. Typical panning and zoom map features allow additional interactivity, complemented by popups displaying magnitude and location details upon clicking any earthquake datapoint.
